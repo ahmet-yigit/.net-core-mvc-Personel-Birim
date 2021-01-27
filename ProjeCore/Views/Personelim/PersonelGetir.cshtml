@@ -1,0 +1,31 @@
+﻿@model ProjeCore.Models.Personel
+@{
+    ViewData["Title"] = "PersonelGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+@using (Html.BeginForm("PersonelGüncelle", "Personelim", FormMethod.Post))
+{
+    <b>Personel ID</b>
+    @*@Html.LabelFor(x => x.departmanAd)*@
+    @Html.TextBoxFor(x => x.PersonelID, new { @class = "form-control" })
+    <br />
+    <b>Personel Adı</b>
+    @*@Html.LabelFor(x => x.departmanAd)*@
+    @Html.TextBoxFor(x => x.Ad, new { @class = "form-control" })
+    <br />
+    <b>Personel Soyadı</b>
+    @*@Html.LabelFor(x => x.departmanAd)*@
+    @Html.TextBoxFor(x => x.Soyad, new { @class = "form-control" })
+    <br />
+    <b>Şehir</b>
+    @*@Html.LabelFor(x => x.departmanAd)*@
+    @Html.TextBoxFor(x => x.Sehir, new { @class = "form-control" })
+    <br />
+    @Html.Label("Birim")
+    @*Html.TextBoxFor(x => x.CategoryID, new { @class = "form-control" })*@
+    @Html.DropDownListFor(x => x.BirimID, (List<SelectListItem>)ViewBag.v1, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Personel Güncelle</button>
+}
+

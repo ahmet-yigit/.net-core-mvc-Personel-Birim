@@ -2,7 +2,7 @@
 
 ### Description
 ```
-Projeye öncelikle "Manage Nuged Packages" üzerinden aşağıda vereceğim paketleri yükleyiniz.
+Projeye öncelikle "Manage NuGet Packages" üzerinden aşağıda vereceğim paketleri yükleyiniz.
 
 1) Microsoft.EntityFrameworkCore
 
@@ -20,7 +20,7 @@ Projeye öncelikle "Manage Nuged Packages" üzerinden aşağıda vereceğim pake
 
 6) Proje üzerinde gerekli migration ayarları ve Code Fisrt yapısı kurulmuştur.
 
-6.1) View>Other Wİndows>Package Manager Console' update-database dediğiniz. Gerekli adımlar çalışarak DB üzerinde Tablolar oluşacaktır.
+6.1) View>Other Windows>Package Manager Console "update-database" dediğiniz. Gerekli adımlar çalışarak DB üzerinde Tablolar oluşacaktır.
 
 ```
 ### SceenShots

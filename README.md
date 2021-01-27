@@ -2,7 +2,7 @@
 
 ### Description
 ```
-Projeye öncelikle "Manage NuGet Packages" üzerinden aşağıda vereceğim paketleri yükleyiniz.
+Projeye "Manage NuGet Packages" üzerinden aşağıda vereceğim paketleri yükleyiniz.
 
 1) Microsoft.EntityFrameworkCore
 
